@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DanielMrva_Portfolio_Reactionary/static/css/main.073c9b0a.css",
+    "main.js": "/DanielMrva_Portfolio_Reactionary/static/js/main.e4076909.js",
+    "static/js/787.1cf7fd63.chunk.js": "/DanielMrva_Portfolio_Reactionary/static/js/787.1cf7fd63.chunk.js",
+    "static/media/logo.svg": "/DanielMrva_Portfolio_Reactionary/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DanielMrva_Portfolio_Reactionary/index.html",
+    "main.073c9b0a.css.map": "/DanielMrva_Portfolio_Reactionary/static/css/main.073c9b0a.css.map",
+    "main.e4076909.js.map": "/DanielMrva_Portfolio_Reactionary/static/js/main.e4076909.js.map",
+    "787.1cf7fd63.chunk.js.map": "/DanielMrva_Portfolio_Reactionary/static/js/787.1cf7fd63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e4076909.js"
+  ]
+}
