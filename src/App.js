@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import PortfolioContainer from './components/PortfolioContainer';
+import './css/materialize.min.css';
 
 const App = () => <PortfolioContainer />;
 
