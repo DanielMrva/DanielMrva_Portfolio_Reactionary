@@ -7,7 +7,7 @@ import Contact from './pages/contact';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] =
-    useState('Home');
+    useState('Projects');
 
     const renderPage = () => {
         switch(currentPage) {
@@ -20,7 +20,7 @@ export default function PortfolioContainer() {
             case 'Projects':
                 return <Projects />;
             default:
-                return <Home />
+                return <Projects />
         };
 
     };
@@ -30,7 +30,7 @@ export default function PortfolioContainer() {
     return (
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-             
+
             {renderPage()}
         </div>
     );
