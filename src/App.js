@@ -3,7 +3,19 @@ import './App.css';
 import PortfolioContainer from './components/PortfolioContainer';
 import './css/materialize.min.css';
 
-const App = () => <PortfolioContainer />;
+const App = () => {
+    return (
+        <div className="portfolio-app">
+            <header className=''>
+
+            </header>
+            <PortfolioContainer />
+        </div>
+    )
+    
+        
+};
+
 
 // {
 //   return (
