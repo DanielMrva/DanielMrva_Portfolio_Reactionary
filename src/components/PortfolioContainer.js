@@ -1,15 +1,14 @@
-import React, {useState} from 'react';
-import NavTabs from './NavTabs';
-import Home from './pages/home';
-import About from './pages/about';
-import Projects from './pages/projects';
-import Contact from './pages/contact';
+// import React, {useState} from 'react';
+// import NavTabs from './NavTabs';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
-export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] =
-    useState('Projects');
+export default function PortfolioContainer({currentPage}) {
 
-    const renderPage = () => {
+
+    const renderPage = (currentPage) => {
         switch(currentPage) {
             case 'Home': 
                 return <Home />;
@@ -20,18 +19,16 @@ export default function PortfolioContainer() {
             case 'Projects':
                 return <Projects />;
             default:
-                return <Projects />
+                return <Home />
         };
 
     };
 
-    const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <div>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 
-            {renderPage()}
+            {renderPage(currentPage)}
         </div>
     );
 

@@ -1,41 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React, { useState } from 'react'
 import './App.css';
-import PortfolioContainer from './components/PortfolioContainer';
 import './css/materialize.min.css';
+import NavTabs from './components/NavTabs';
+import PortfolioContainer from './components/PortfolioContainer'
 
 const App = () => {
-    return (
-        <div className="portfolio-app">
-            <header className=''>
+    const [currentPage, setCurrentPage] = useState('Home');
+    const handlePageChange = (page) => setCurrentPage(page);
 
-            </header>
-            <PortfolioContainer />
-        </div>
+    return (
+        <>
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
+
+            <PortfolioContainer currentPage={currentPage} />
+
+        </>
     )
     
         
 };
 
-
-// {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;

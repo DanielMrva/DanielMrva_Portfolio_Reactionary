@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero {
+  min-width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+  object-fit: fill;
+  padding: 0px;
+  margin-bottom: 0px;
+  filter: blur(2px);
+  position: relative;
+}
+
+.child-of {
+  position: absolute;
+}
+
+.card-img {
+  max-height: 200px;
+  object-fit: fill;
+}

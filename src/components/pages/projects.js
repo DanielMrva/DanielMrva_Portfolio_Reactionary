@@ -1,46 +1,53 @@
 import React from 'react';
+import ProjectCard from './cards/ProjectCard';
+// import IMAGES from '../../image/index';
+import Accretion from '../../image/accretion.png'
+import Moonr8ker from '../../image/moonr8ker.jpg'
+import Password from '../../image/password.jpg'
+import Weather from '../../image/weather.jpg'
+
 
 const projectsArray = [
   {
     id: 1,
     name: "Accretion",
-    image: "accretion.png",
-    desc: "text",
+    image: Accretion,
+    desc: "Accretion is a weekly report submission and database app developed as part of a group with Lindsey Choi, Al Garraffa, and Amber Zimmerman. It uses handlebars, express, MySQL, Sequelize, BCrypt, and PDF Generator",
     git: "https://github.com/DanielMrva/accretion",
     dep: "https://accretion2022.herokuapp.com/"
   },
   {
     id: 2,
     name: "Lunar Activities",
-    image: "lunar.png",
-    desc: "text",
+    image: Moonr8ker,
+    desc: "Moonr8ker is a randomized activity generator and planner using moon phase mapping and random activity generating APIs built as a group project with Al Garraffa and Amber Zimmerman",
     git: "https://github.com/DanielMrva/Lunar-Activities",
     dep: "https://danielmrva.github.io/Lunar-Activities/"
   },
   {
     id: 3,
     name: "Javascript Password Generator",
-    image: "jsPass.png",
-    desc: "text",
+    image: Password,
+    desc: "A java-script focused password generator, which also uses RegEx for password-requirement validation",
     git: "https://github.com/DanielMrva/JS_Password_Generator",
     dep: "https://danielmrva.github.io/JS_Password_Generator/"
   },
   {
     id: 4,
     name: "Weather Forecast Site",
-    image: "weather.png",
-    desc: "text",
+    image: Weather,
+    desc: "A weather dashboard app that utilizes programatic html rendering alongside an API call for data.",
     git: "https://github.com/DanielMrva/Weather_Dashboard",
     dep: "https://danielmrva.github.io/Weather_Dashboard/"
   }
 ]
 
-export default function projects() {
+export default function Projects() {
   return (
-    <section className='section' id='projects'>
+    <section className='section container' id='projects'>
       <div className='row'>
         {projectsArray.map(project => (
-          <projectCard id={project.id} image={project.image} name={project.name} desc={project.desc} git={project.git} dep={project.dep} />
+          <ProjectCard key={project.id} image={project.image} name={project.name} desc={project.desc} git={project.git} dep={project.dep} />
         ))}
 
       </div>
