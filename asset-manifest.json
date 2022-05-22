@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/DanielMrva_Portfolio_Reactionary/static/css/main.67327299.css",
-    "main.js": "/DanielMrva_Portfolio_Reactionary/static/js/main.12820a9d.js",
-    "static/media/logo.svg": "/DanielMrva_Portfolio_Reactionary/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/DanielMrva_Portfolio_Reactionary/static/css/main.2d52d819.css",
+    "main.js": "/DanielMrva_Portfolio_Reactionary/static/js/main.0b6dcf65.js",
+    "static/media/accretion.png": "/DanielMrva_Portfolio_Reactionary/static/media/accretion.5c95c16a4770f9d45ecd.png",
+    "static/media/heroBG.png": "/DanielMrva_Portfolio_Reactionary/static/media/heroBG.e11aad10daba400724f6.png",
+    "static/media/moonr8ker.jpg": "/DanielMrva_Portfolio_Reactionary/static/media/moonr8ker.fcb15bd539405970599d.jpg",
+    "static/media/weather.jpg": "/DanielMrva_Portfolio_Reactionary/static/media/weather.ff13d9fc2d51b7f0c924.jpg",
+    "static/media/password.jpg": "/DanielMrva_Portfolio_Reactionary/static/media/password.4c6a3d4116c68e02cb29.jpg",
     "index.html": "/DanielMrva_Portfolio_Reactionary/index.html",
-    "main.67327299.css.map": "/DanielMrva_Portfolio_Reactionary/static/css/main.67327299.css.map",
-    "main.12820a9d.js.map": "/DanielMrva_Portfolio_Reactionary/static/js/main.12820a9d.js.map"
+    "main.2d52d819.css.map": "/DanielMrva_Portfolio_Reactionary/static/css/main.2d52d819.css.map",
+    "main.0b6dcf65.js.map": "/DanielMrva_Portfolio_Reactionary/static/js/main.0b6dcf65.js.map"
   },
   "entrypoints": [
-    "static/css/main.67327299.css",
-    "static/js/main.12820a9d.js"
+    "static/css/main.2d52d819.css",
+    "static/js/main.0b6dcf65.js"
   ]
 }
