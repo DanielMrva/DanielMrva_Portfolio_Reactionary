@@ -23,11 +23,42 @@ code {
   position: relative;
 }
 
+.relativePOS {
+  position: relative;
+}
+
 .child-of {
   position: absolute;
+
 }
 
 .card-img {
-  max-height: 200px;
+  height: 400px;
   object-fit: fill;
+}
+
+.custom-color {
+  background-color:#e0f2f1;
+}
+
+.other-color {
+  background-color: aquamarine;
+}
+
+.card .card-reveal {
+  padding: 24px;
+  position: absolute;
+  background-color: #e0f2f1 !important;
+  width: 100%;
+  overflow-y: auto;
+  left: 0;
+  top: 100%;
+  height: 100%;
+  z-index: 3;
+  display: none;
+}
+
+.hero-bg {
+  background-Image: url(./image/heroBG.png),
+
 }

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume'
 
 export default function PortfolioContainer({currentPage}) {
 
@@ -18,8 +19,10 @@ export default function PortfolioContainer({currentPage}) {
                 return <Contact />;
             case 'Projects':
                 return <Projects />;
+            case 'Resume':
+                return <Resume />
             default:
-                return <Home />
+                return <About />
         };
 
     };

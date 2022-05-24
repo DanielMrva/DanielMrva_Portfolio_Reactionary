@@ -1,18 +1,13 @@
 import React from 'react';
 import ProjectCard from './cards/ProjectCard';
-// import IMAGES from '../../image/index';
-import Accretion from '../../image/accretion.png'
-import Moonr8ker from '../../image/moonr8ker.jpg'
-import Password from '../../image/password.jpg'
-import Weather from '../../image/weather.jpg'
-
+import {Accretion, Moonr8ker, Password, Weather} from '../../image/index';
 
 const projectsArray = [
   {
     id: 1,
     name: "Accretion",
     image: Accretion,
-    desc: "Accretion is a weekly report submission and database app developed as part of a group with Lindsey Choi, Al Garraffa, and Amber Zimmerman. It uses handlebars, express, MySQL, Sequelize, BCrypt, and PDF Generator",
+    desc: "Accretion is a weekly report submission and database app developed as part of a group with Lindsey Choi, Al Garraffa, and Amber Zimmerman. It uses handlebars, express, MySQL, Sequelize, BCrypt, and PDF Generator packages",
     git: "https://github.com/DanielMrva/accretion",
     dep: "https://accretion2022.herokuapp.com/"
   },
@@ -44,13 +39,14 @@ const projectsArray = [
 
 export default function Projects() {
   return (
-    <section className='section container' id='projects'>
+    <section className='section container'>
       <div className='row'>
-        {projectsArray.map(project => (
-          <ProjectCard key={project.id} image={project.image} name={project.name} desc={project.desc} git={project.git} dep={project.dep} />
-        ))}
-
+      {projectsArray.map(project => (
+              <ProjectCard key={project.id} image={project.image} name={project.name} desc={project.desc} git={project.git} dep={project.dep} />
+            )
+          )
+        }
       </div>
     </section>
-  );
+  )
 }
