@@ -29,7 +29,7 @@ export default function PortfolioContainer({currentPage}) {
 
 
     return (
-        <div>
+        <div id="content-wrap">
 
             {renderPage(currentPage)}
         </div>

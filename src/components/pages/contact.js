@@ -27,15 +27,28 @@ export default function Contact() {
         </form>
       </div>
 
-      <div className='row'>
+      <div className='row center-align'>
         <div className='col s12'>
           <div>
-              <ul id="links" >
-                  <li><a target="_blank" href="https://github.com/DanielMrva" ><i className="fa-brands fa-github"></i></a></li>
-                  <li><a target="_blank" href="https://www.linkedin.com/in/daniel-mrva-1198a671/"><i className="fa-brands fa-linkedin"></i></a></li>
-                  <li><a href="mailto:mrva.develops@gmail.com" ><i className='fa-solid fa-paper-plane'></i></a></li>
-                  {/* <li><a href="./Assets/docs/Daniel-Mrva-Resume.pdf" download>Resume Download</a></li> */}
-              </ul>
+            <div class="row valign-wrapper">
+              <div class="col l4 m6 s6">
+                  <div className='row'>
+                    <a href="https://github.com/DanielMrva" class="center-align waves-effect waves-light btn-floating btn-large social github"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                  <br></br>
+              </div>
+              <div class="col l4 m6 s6">
+                  <div className='row'>
+                    <a href="www.linkedin.com/in/daniel-mrva-1198a671" class="center-align waves-effect waves-light btn-floating btn-large social linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+              </div>
+              <div class="col l4 m6 s6">
+                  <div className='row'>
+                    <a href="mailto:mrva.develops.gmail.com" class="center-align waves-effect btn-floating btn-large social"><i class="fa-solid fa-paper-plane"></i></a>
+                  </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

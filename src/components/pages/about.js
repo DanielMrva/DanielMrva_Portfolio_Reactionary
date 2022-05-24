@@ -5,7 +5,7 @@ export default function About() {
     <section className="section container">
       <div className="row">
         <div className="col s12 m3 l3">
-          <h2 className="about-text">About Me</h2>
+          <h2 className="about-text white-text">About Me</h2>
         </div>
 
         <div className="col m9 l9">

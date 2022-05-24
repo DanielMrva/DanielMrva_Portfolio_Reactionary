@@ -4,19 +4,48 @@ export default function Resume() {
     return (
         <>
             <section className="section container" id="about">
-                <div className="row">
-                    <div className="col s12 m3 l3">
-                    <h2 className="about-text">Resume</h2>
-                    </div>
-
-                    <div className="col m9 l9">
-                    <p className="about-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur repudiandae, facilis deleniti iusto amet assumenda. Laborum beatae animi sequi optio iste, sint delectus error assumenda explicabo, officia a harum suscipit!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus veniam modi quisquam odio ratione possimus, amet, excepturi minima et consequatur earum. Et, at facilis quam suscipit veniam alias veritatis?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut asperiores sequi tempora, ducimus accusantium minus accusamus optio. Hic, quisquam quaerat perferendis tempora repellendus animi sunt quidem natus sapiente modi doloribus.
-                    </p>
+                <div className='row'>
+                    <div className='resume-blurb col s12'>
+                        <p>A full stack web developer driven by systems, optimization, data, and creative problem solving.</p>
                     </div>
                 </div>
+                <div className='row'>
+                    <div className='education-container col s12'>
+                        <h3>Education</h3>
+                    </div>
+                    <div className='ed-card col s12 m4'>
+                        <p>Full Stack Web Developer Boot Camp</p>
+                        <p>2022 Technical Certificate</p>
+                        <p>University Of Denver</p>
+                    </div>
+                    <div className='ed-card col s12 m4'>
+                        <p>Masters of Fine Arts</p>
+                        <p>2012 Painting</p>
+                        <p>Indiana University</p>
+                    </div>
+                    <div className='ed-card col s12 m4'>
+                        <p>Bachelor of Fine Arts</p>
+                        <p>2009 Painting</p>
+                        <p>Illinois State University</p>
+                    </div>
+                </div>
+
+              <p>
+                HTML/CSS / JavaScript / React / Handlebars / CSS-in-JS /
+                Bootstrap / PWA / Webpack / Workbox / JQuery / Node.JS tooling /
+                Materialize / JSX /
+              </p>
+              <p>
+                Javascript / NodeJS / MySQL / Sequelize / JSON / OOP / MongoDB /
+                Mongoose / MERN stack / RESTful web services / APIs / Express /
+                CRUD / GraphQL / Apollo /
+              </p>
+              <p>
+                Adobe CC / Google Suite / Sketch / Miro / Kanban / Github /
+                Heroku / Insomnia / Postman / Lighthouse / Mongo DB Compass /
+                Luci
+            </p>
+             
             </section>
         </>
     );

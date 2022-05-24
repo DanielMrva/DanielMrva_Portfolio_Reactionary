@@ -1,3 +1,19 @@
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +42,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.social {
+  background-color: #444444 !important;
+  color: #fff !important;
+}
+.social i {
+  color: #fff !important;
+}
+.social:hover {
+  background-color: #5e5e5e !important;
 }
 
 @keyframes App-logo-spin {
