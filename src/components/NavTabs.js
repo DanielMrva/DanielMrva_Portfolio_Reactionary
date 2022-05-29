@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../image/heroBG2.jpg";
-// import {Hero} from '../image/index.js';
+import Me from '../image/me.jpg';
 
 
 const styles = {
@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <div style={styles.heroStyles} className="hero-bg">
                     <div className="align-center  valign-wrapper row">
                         <h1 className="white-text col s8">Daniel Mrva</h1>
-                        <img src="" alt="An image of the programer as a young father" className="circle align-right col s4"></img>
+                        <img src={Me} alt="the programer" className="circle align-right col s4"></img>
                     </div>
                 </div>
                 <nav className="nav-extended brown lighten-4">

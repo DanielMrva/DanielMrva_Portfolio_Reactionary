@@ -35,7 +35,7 @@ const projectsArray = [
     git: "https://github.com/DanielMrva/Weather_Dashboard",
     dep: "https://danielmrva.github.io/Weather_Dashboard/"
   }
-]
+];
 
 export default function Projects() {
   return (
