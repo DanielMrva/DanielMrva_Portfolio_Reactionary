@@ -9,9 +9,9 @@ function ProjectCard(props) {
             </div>
             <div className="card-content teal lighten-5">
                 <span className="card-title activator grey-text text-darken-4">{props.name}<i className="material-icons right">more_vert</i></span>
-                <a href={props.git}>Repository</a>
+                <a href={props.git} target='_blank' rel="noreferrer">Repository</a>
                 <br></br>
-                <a href={props.dep}>Deployed</a>
+                <a href={props.dep} target='_blank' rel="noreferrer">Deployed</a>
             </div>
             <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4 ">{props.name}<i class="material-icons right">close</i></span>
@@ -23,26 +23,3 @@ function ProjectCard(props) {
 }
 
 export default ProjectCard;
-
-//previous card version:
-
-// function ProjectCard(props) {
-//     return (
-
-//             <div className="col s12 m6">
-//                 <div className="card " key={props.id}>
-//                     <div className="card-image">
-//                         <img src={props.image} alt="" className="card-img"/>
-//                         <span className="card-title">{props.name}</span>
-//                     </div>
-//                     <div className="card-content">
-//                         <p>{props.desc}</p>
-//                     </div>
-//                     <div className="card-action">
-//                         <a href={props.git}>Repository</a>
-//                         <a href={props.dep}>Deployed</a>
-//                     </div>
-//                 </div>
-//             </div>
-//             )
-// }

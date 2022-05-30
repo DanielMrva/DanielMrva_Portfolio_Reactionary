@@ -47,6 +47,11 @@ li {
   font-size: var(--size-400);
 }
 
+li .active {
+  text-decoration: underline !important;
+  background-color: #a1887f  !important;
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
