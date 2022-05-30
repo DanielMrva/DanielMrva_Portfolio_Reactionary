@@ -26,6 +26,8 @@
   
   ## Github Repository
   [Reactionary - Daniel Mrva Portfolio](https://github.com/DanielMrva/DanielMrva_Portfolio_Reactionary)
+  
+  
   [Deployed](https://danielmrva.github.io/DanielMrva_Portfolio_Reactionary/)
   
   ## License 
