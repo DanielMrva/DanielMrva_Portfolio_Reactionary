@@ -3,11 +3,11 @@ import React from 'react';
 export default function Resume() {
     return (
         <>
-            <section className="section container">
+  <section className="section container">
                 <div className='row'>
-                    <div className='col s12 m4 no-bottom-margin height'>
+                    <div className='col m12 l4'>
                         <div className='row brown lighten-3 no-bottom-margin'>
-                            <div className='col s12'>
+                            <div className='col m12'>
                                 <h4>Daniel <br></br>Mrva</h4>
                                 <ul>
                                     <li><i className="fa-solid fa-paper-plane"></i>mrva.develops@gmail.com</li>
@@ -18,8 +18,8 @@ export default function Resume() {
                                 
                             </div>
                         </div>
-                        <div className='row grey lighten-4 no-bottom-margin height'>
-                            <div className='col s12 '>
+                        <div className='row grey lighten-4 no-bottom-margin'>
+                            <div className='col m12 '>
                                 <h5>Education</h5>
                                 <ul>
                                     <h6>Full Stack Web Dev Bootcamp</h6>
@@ -70,23 +70,23 @@ export default function Resume() {
                         
 
                     </div>
-                    <div className='col s12 m8 grey lighten-3'>
+                    <div className='col m12 l8 grey lighten-3'>
                         <div className='row'>
-                            <div className='col s12'>
+                            <div className='col m12'>
                                 <h5>Career Goals</h5>
                                 <p>A full stack web developer driven by systems, optimization, data, and creative problem solving.  I have consistent experience grasping systems and data, and constanly look to optimize processes.</p>
                             </div>
 
                         </div>
                         <div className='row'>
-                            <div className='col s12'>
+                            <div className='col m12'>
                                 <h5>Projects</h5>
                                 <div className='row'>
-                                    <div className="col s12">
+                                    <div className="col m12">
                                         <h6><b>Accretion</b></h6>
                                         <p>MySQl/Sequelize - Node - Express - Handlebars<br></br>Accretion is weekly report submission and database app built using specifications of a USGS regional office. <br></br>As part of this group project, I focused on the database functionality, and dynamic rendering via Handlebars and Sequelize querries.</p>
                                     </div>
-                                    <div className="col s12">
+                                    <div className="col m12">
                                         <h6><b>social_net_work</b></h6>
                                         <p>MongoDB/Mongoose - Express<br></br>A very cleverly named, yet basic social network API built using Express, MongoDB, Mongoose, and utilizing lorum-ipsum module for seed text generation. Particular interest on my part on this app was the logic for seeding the database with randomized data, and subsequent association of randomly generated users with randomly generated comment via querries.</p>
                                     </div>
@@ -95,19 +95,19 @@ export default function Resume() {
 
 
                             </div>
-                            <div className='col s12'>
+                            <div className='col m12 no-bottom-margin'>
                                 <h5>Work Experience</h5>
                                 <div className='row'>
-                                    <div className="col s12">
+                                    <div className="col m12">
                                         <h6>Catering Supervisor/Head Delivery Driver</h6>
                                         <p><i className='material-icons tiny'>work</i>Jimmy Johns <i className='material-icons tiny'>today</i> May 2017 - Present <i className='material-icons tiny'>room</i>Englewood, CO</p>
                                         <p>Lead delivery driver in charge of catering, routing, maintaining quality control on catering orders, first point of contact for customer's delivery issues. Assists with morning open, sandwich making, order assembly, etc.</p>
 
                                     </div>
-                                    <div className="col s12">
+                                    <div className="col m12">
                                         <h6>Purchasing Coordinator / Art Handler</h6>
                                         <p><i className='material-icons tiny'>work</i>Terry Doud Inc <i className='material-icons tiny'>today</i> January 2014 - Febuary 2017 <i className='material-icons tiny'>room</i>Chicago, IL / Denver, CO</p>
-                                        <p>
+                                        <p className='no-bottom-margin'>
                                         Worked as a materials/equipment purchaser for a small art-handling business (approximately 30 employees between two branches). Accountant's assistant, primarily concerned with reconciling accounts payable to specific jobs/operations. Was the primary liaison between operations, admin, and project management. Tracked inventory between two branches.
                                         </p>
                                     </div>
@@ -123,7 +123,8 @@ export default function Resume() {
                 </div>
 
             </section>
-
+            
         </>
     );
   }
+

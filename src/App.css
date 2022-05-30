@@ -1,17 +1,66 @@
+/* root pseudo-class to assign var for text and colors */
+:root {
+
+  --size-300: clamp(0.7rem, 0.66rem + 0.2vw, 0.8rem);
+  --size-400: clamp(0.88rem, 0.83rem + 0.24vw, 1rem);
+  --size-500: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
+  --size-600: clamp(1.37rem, 1.21rem + 0.8vw, 1.78rem);
+  --size-700: clamp(1.71rem, 1.45rem + 1.29vw, 2.37rem);
+  --size-800: clamp(2.14rem, 1.74rem + 1.99vw, 3.16rem);
+  --size-900: clamp(2.67rem, 2.07rem + 3vw, 4.21rem);
+  --size-1000: clamp(3.34rem, 2.45rem + 4.43vw, 5.61rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: var(--size-900);
+}
+
+h2 {
+  font-size: var(--size-700);
+}
+
+h3 {
+  font-size: var(--size-600);
+}
+
+h4 {
+  font-size: var(--size-500);
+}
+
+h5 {
+  font-size: var(--size-400);
+}
+
+h6 {
+  font-size: var(--size-300);
+}
+
+p {
+  font-size: var(--size-400);
+}
+
+li {
+  font-size: var(--size-400);
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
+  height: 2.5rem;
 }
 
 .no-bottom-margin {
