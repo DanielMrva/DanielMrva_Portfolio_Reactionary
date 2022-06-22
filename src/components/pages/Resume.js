@@ -74,7 +74,7 @@ export default function Resume() {
                         <div className='row'>
                             <div className='col m12'>
                                 <h5>Career Goals</h5>
-                                <p>A full stack web developer driven by systems, optimization, data, and creative problem solving.  I have consistent experience grasping systems and data, and constanly look to optimize processes.</p>
+                                <p>A full stack web developer driven by systems, optimization, data, and creative problem solving. I have consistent experience grasping systems and data, and constantly look to optimize processes.</p>
                             </div>
 
                         </div>
