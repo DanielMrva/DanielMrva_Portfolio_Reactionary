@@ -7,4 +7,5 @@ export {default as Jate } from './jate.jpg';
 export {default as SqlTeam6 } from './sqlTeam6.jpg';
 export {default as CTech } from './ctech.jpg';
 export {default as Tach } from './tach.jpg';
+export { default as Close } from './closeEncoutners.png';
 

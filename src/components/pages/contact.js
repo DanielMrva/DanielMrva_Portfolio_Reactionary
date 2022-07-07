@@ -39,7 +39,7 @@ export default function Contact() {
               </div>
               <div class="col l4 m6 s6">
                   <div className='row'>
-                    <a href="www.linkedin.com/in/daniel-mrva-1198a671" className="center-align waves-effect waves-light btn-floating btn-large social linkedin"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="www.linkedin.com/in/daniel-mrva/" className="center-align waves-effect waves-light btn-floating btn-large social linkedin"><i className="fa-brands fa-linkedin"></i></a>
                   </div>
               </div>
               <div class="col l4 m6 s6">
