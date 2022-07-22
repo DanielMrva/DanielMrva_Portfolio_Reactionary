@@ -48,20 +48,28 @@ export default function Resume() {
                                 <br></br>
                                 <h5>Skills</h5>
                                 <ul>
+                                    <h6>Web Technologies</h6>
                                     <li>HTML 5</li>
                                     <li>CSS 3</li>
-                                    <li>Materialize</li>
                                     <li>JavaScript ES6</li>
-                                    <li>Node JS</li>
-                                    <li>Express JS</li>
+                                    <li>Materialize</li>
                                     <li>Handlebars</li>
                                     <li>React / Redux</li>
+                                    <h6>Scripts/Backend</h6> 
+                                    <li>Node JS</li>
+                                    <li>Express JS</li>
+                                    <h6>Database</h6> 
                                     <li>MySQL / Sequelize</li>
                                     <li>MongoDB / Mongoose</li>
                                     <li>GraphQL / Apollo Client</li>
+                                    <h6>Versioning / Deployment</h6> 
                                     <li>GitHub</li>
                                     <li>Heroku</li>
                                 </ul>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                
 
                             </div>
 
@@ -74,7 +82,7 @@ export default function Resume() {
                         <div className='row'>
                             <div className='col m12'>
                                 <h5>Career Goals</h5>
-                                <p>A full stack web developer driven by systems, optimization, data, and creative problem solving. I have consistent experience grasping systems and data, and constantly look to optimize processes.</p>
+                                <p>A full stack web developer with a background in the arts and education.  A developer driven by systems, optimization, data, and creative problem solving, who loves to tackle a challenge, master it, and then share that knowledge with others.</p>
                             </div>
 
                         </div>
@@ -107,8 +115,15 @@ export default function Resume() {
                                     <div className="col m12">
                                         <h6>Purchasing Coordinator / Art Handler</h6>
                                         <p><i className='material-icons tiny'>work</i>Terry Doud Inc <i className='material-icons tiny'>today</i> January 2014 - Febuary 2017 <i className='material-icons tiny'>room</i>Chicago, IL / Denver, CO</p>
-                                        <p className='no-bottom-margin'>
+                                        <p>
                                         Worked as a materials/equipment purchaser for a small art-handling business (approximately 30 employees between two branches). Accountant's assistant, primarily concerned with reconciling accounts payable to specific jobs/operations. Was the primary liaison between operations, admin, and project management. Tracked inventory between two branches.
+                                        </p>
+                                    </div>
+                                    <div className="col m12">
+                                        <h6>Associate Instructor</h6>
+                                        <p><i className='material-icons tiny'>work</i>Indiana University <i className='material-icons tiny'>today</i> January 2012 - June 2013 <i className='material-icons tiny'>room</i>Bloomington, IN</p>
+                                        <p className='no-bottom-margin'>
+                                            Instructor for a class of approximately 20 undergraduate students in foundations color theory and design course for a total of three semesters.  Worked directly with foundations area professor to implement curriculum and adapt previously designed projects.  Responsible for grading, mantaining class supplies and encouraging positive class atmosphere in a group of diverse students.
                                         </p>
                                     </div>
 
