@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DanielMrva_Portfolio_Reactionary/static/css/main.be38bece.css",
-    "main.js": "/DanielMrva_Portfolio_Reactionary/static/js/main.0e3e608e.js",
+    "main.js": "/DanielMrva_Portfolio_Reactionary/static/js/main.b23972a5.js",
     "static/media/accretion.png": "/DanielMrva_Portfolio_Reactionary/static/media/accretion.5c95c16a4770f9d45ecd.png",
     "static/media/closeEncoutners.png": "/DanielMrva_Portfolio_Reactionary/static/media/closeEncoutners.92c84706b2c77a294280.png",
     "static/media/heroBG2.jpg": "/DanielMrva_Portfolio_Reactionary/static/media/heroBG2.fca23364d76836b1fde8.jpg",
@@ -16,10 +16,10 @@
     "static/media/me.jpg": "/DanielMrva_Portfolio_Reactionary/static/media/me.f872879d5e9c1c9f43f8.jpg",
     "index.html": "/DanielMrva_Portfolio_Reactionary/index.html",
     "main.be38bece.css.map": "/DanielMrva_Portfolio_Reactionary/static/css/main.be38bece.css.map",
-    "main.0e3e608e.js.map": "/DanielMrva_Portfolio_Reactionary/static/js/main.0e3e608e.js.map"
+    "main.b23972a5.js.map": "/DanielMrva_Portfolio_Reactionary/static/js/main.b23972a5.js.map"
   },
   "entrypoints": [
     "static/css/main.be38bece.css",
-    "static/js/main.0e3e608e.js"
+    "static/js/main.b23972a5.js"
   ]
 }
