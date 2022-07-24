@@ -92,11 +92,11 @@ export default function Resume() {
                                 <div className='row'>
                                     <div className="col m12">
                                         <h6><b>Accretion</b></h6>
-                                        <p>MySQl/Sequelize - Node - Express - Handlebars<br></br>Accretion is weekly report submission and database app built using specifications of a USGS regional office. <br></br>As part of this group project, I focused on the database functionality, and dynamic rendering via Handlebars and Sequelize querries.</p>
+                                        <p>MySQl/Sequelize - Node - Express - Handlebars<br></br>Accretion is weekly report submission and database app built using specifications of a USGS regional office. <br></br>As part of this group project, I focused on the database functionality, and dynamic rendering via Handlebars and Sequelize queries.</p>
                                     </div>
                                     <div className="col m12">
                                         <h6><b>social_net_work</b></h6>
-                                        <p>MongoDB/Mongoose - Express<br></br>A very cleverly named, yet basic social network API built using Express, MongoDB, Mongoose, and utilizing lorum-ipsum module for seed text generation. Particular interest on my part on this app was the logic for seeding the database with randomized data, and subsequent association of randomly generated users with randomly generated comment via querries.</p>
+                                        <p>MongoDB/Mongoose - Express<br></br>A very cleverly named, yet basic social network API built using Express, MongoDB, Mongoose, and utilizing lorum-ipsum module for seed text generation. Particular interest on my part on this app was the logic for seeding the database with randomized data, and subsequent association of randomly generated users with randomly generated comment via queries.</p>
                                     </div>
 
                                 </div>
